@@ -5,11 +5,10 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
-
+    valentineName: "Paulina",
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Zostaniesz moją walentynką 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,9 +21,9 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
+            text: "Lubisz mnie?",                                    // First interaction
+            yesBtn: "Tak",                                             // Text for "Tak" button
+            noBtn: "Nie",                                               // Text for "Nie" button
             secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
         },
         second: {
